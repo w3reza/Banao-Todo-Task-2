@@ -39,7 +39,7 @@ class TaskController extends Controller
         }
     }
 
-    public function updateTask(Request $request)
+    public function updateStatus(Request $request)
     {
 
 

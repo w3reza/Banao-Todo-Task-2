@@ -17,5 +17,5 @@ use App\Http\Controllers\Backend\TaskController;
 
 Route::middleware('api')->group(function () {
 Route::post('/todo/add', [TaskController::class, 'addTask']);
-Route::post('/todo/status', [TaskController::class, 'updateTask']);
+Route::post('/todo/status', [TaskController::class, 'updateStatus']);
 });
