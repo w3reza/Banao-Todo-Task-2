@@ -19,7 +19,7 @@ git clone https://github.com/w3reza/Banao-Todo-Task-2.git
 
 Switch to the repo folder
 
-    cd Banao-Laravel-Task-1
+    cd Banao-Todo-Task-2
 
 Install all the dependencies using composer
 
