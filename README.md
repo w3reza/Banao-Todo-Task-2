@@ -15,7 +15,7 @@ This Laravel application is allow users to add Task and update status.
 
 Clone the repository
 
-git clone https://github.com/w3reza/Banao-Laravel-Task-1.git
+git clone https://github.com/w3reza/Banao-Todo-Task-2.git
 
 Switch to the repo folder
 
