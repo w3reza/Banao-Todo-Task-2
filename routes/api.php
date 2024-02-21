@@ -1,0 +1,21 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Backend\TaskController;
+
+/*
+|--------------------------------------------------------------------------
+| API Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register API routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "api" middleware group. Make something great!
+|
+*/
+
+
+Route::middleware('api')->group(function () {
+Route::post('/todo/add', [TaskController::class, 'addTask']);
+Route::post('/todo/status', [TaskController::class, 'updateTask']);
+});
